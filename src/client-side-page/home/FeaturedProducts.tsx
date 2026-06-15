@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { products } from '../data/products';
+import { products } from 'src/data/products';
 
 export default function FeaturedProducts() {
   const handleBuyNow = (productName: string) => {
