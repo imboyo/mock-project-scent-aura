@@ -1,4 +1,4 @@
-import { ShoppingBag, Search, Menu } from 'lucide-react';
+import { Menu } from 'lucide-react';
 
 export default function Navbar() {
   return (
@@ -20,13 +20,6 @@ export default function Navbar() {
         </div>
 
         <div className="flex items-center gap-6 text-[10px] tracking-[0.2em] uppercase font-medium text-white/60">
-          <button className="hover:text-white hover:opacity-100 transition-colors hidden sm:block">
-            <Search className="w-4 h-4" />
-          </button>
-          <button className="hover:text-white hover:opacity-100 transition-colors relative flex items-center gap-2 font-bold text-white">
-            <ShoppingBag className="w-4 h-4" />
-            <span className="hidden sm:inline-block">Cart (0)</span>
-          </button>
         </div>
       </div>
     </nav>
