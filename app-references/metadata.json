@@ -1,0 +1,8 @@
+{
+  "name": "ScentAura",
+  "description": "High-converting luxury perfume landing page with elegant dark aesthetics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
